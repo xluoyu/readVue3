@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="Hpj0fbwz6px4vmpxhvZO" name="第 1 页">
+        <mxGraphModel dx="629" dy="285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="createApp(...agrs)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="app =&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; color: rgb(97 , 175 , 239)&quot;&gt;ensureRenderer&lt;/span&gt;&lt;span style=&quot;background-color: rgb(40 , 44 , 52) ; color: rgb(171 , 178 , 191) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;().&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; color: rgb(97 , 175 , 239)&quot;&gt;createApp&lt;/span&gt;&lt;span style=&quot;background-color: rgb(40 , 44 , 52) ; color: rgb(171 , 178 , 191) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;(...&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; color: rgb(224 , 108 , 117) ; font-style: italic&quot;&gt;args&lt;/span&gt;&lt;span style=&quot;background-color: rgb(40 , 44 , 52) ; color: rgb(171 , 178 , 191) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="170" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;ensureRenderer() =&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(97 , 175 , 239) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;createRenderer(rendererOptions)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="170" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="创建一个渲染器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="80" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 24px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #e5c07b&quot;&gt;rendererOptions&lt;/span&gt; &lt;span style=&quot;color: #56b6c2&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef&quot;&gt;extend&lt;/span&gt;({ &lt;span style=&quot;color: #61afef&quot;&gt;patchProp&lt;/span&gt; }, &lt;span style=&quot;color: #e5c07b&quot;&gt;nodeOps&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 24px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 24px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e ; font-style: italic&quot;&gt;这里对一些dom操作做了封装&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e ; font-style: italic&quot;&gt;&amp;nbsp;比如： 修改className， style&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e ; font-style: italic&quot;&gt;createElement， removeElement 等等&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1070" y="40" width="360" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;baseCreateRenderer(options)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="290" width="280" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;" edge="1" parent="1" source="17" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="初始化渲染器的主方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="260" width="170" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
