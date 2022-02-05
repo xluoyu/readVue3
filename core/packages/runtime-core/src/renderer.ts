@@ -299,6 +299,7 @@ export function createRenderer<
 // Separate API for creating hydration-enabled renderer.
 // Hydration logic is only used whe n calling this function, making it
 // tree-shakable.
+// 用于SSR的创建入口
 export function createHydrationRenderer(
   options: RendererOptions<Node, Element>
 ) {

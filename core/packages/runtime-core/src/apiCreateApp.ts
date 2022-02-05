@@ -189,6 +189,9 @@ export function createAppAPI<HostElement>(
 
     let isMounted = false
 
+    /**
+     * 一个App示例
+     */
     const app: App = (context.app = {
       _uid: uid++,
       _component: rootComponent as ConcreteComponent,
