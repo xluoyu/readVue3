@@ -9,3 +9,5 @@ export const getGlobalThis = () => {
     _globalThis = typeof window !== 'undefined' ? window : {}
   )
 }
+
+export const isObject = (val) => typeof val === 'object'
