@@ -9,9 +9,18 @@
   <body>
     <div id="app"></div>
     <script type="module">
-      import * as vue from "/src/index.ts"
+      import {createApp, h} from "/src/index.ts"
 
-      console.log(vue)
+      const Vue = {
+        data () {
+          return {
+            
+          }
+        }
+      }
+
+      const app = createApp(Vue)
+      app.mount('#app')
     </script>
   </body>
 </html>

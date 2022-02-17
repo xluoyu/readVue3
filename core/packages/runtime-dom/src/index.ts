@@ -81,9 +81,10 @@ export const hydrate = ((...args) => {
  * 初始化入口
  */
 export const createApp = ((...args) => {
+  console.log('args', args)
 
   const app = ensureRenderer().createApp(...args)
-
+  console.log('app', app)
   if (__DEV__) {
     injectNativeTagCheck(app)
     injectCompilerOptionsCheck(app)

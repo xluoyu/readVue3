@@ -341,9 +341,9 @@ function baseCreateRenderer(
   target.__VUE__ = true
 
   // 这里是给 VUE Devtools 开的后门
-  if (__DEV__ || __FEATURE_PROD_DEVTOOLS__) {
-    setDevtoolsHook(target.__VUE_DEVTOOLS_GLOBAL_HOOK__, target)
-  }
+  // if (__DEV__ || __FEATURE_PROD_DEVTOOLS__) {
+  //   setDevtoolsHook(target.__VUE_DEVTOOLS_GLOBAL_HOOK__, target)
+  // }
 
   const {
     insert: hostInsert,

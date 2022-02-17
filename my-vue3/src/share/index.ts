@@ -11,3 +11,4 @@ export const getGlobalThis = () => {
 }
 
 export const isObject = (val) => typeof val === 'object'
+export const isString = (val) => typeof val === 'string'

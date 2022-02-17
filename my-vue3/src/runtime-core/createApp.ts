@@ -79,6 +79,10 @@ export function createAppAPI (render) {
   }
 }
 
-export const createVNode = () => {
+export const createVNode = (type, props) => {
+  if (!type) {
+    console.error('不能没有根节点')
+  }
+
   
 }
